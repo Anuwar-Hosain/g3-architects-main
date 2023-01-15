@@ -23,7 +23,7 @@
   margin: 0 auto;
 }
 .margin-b {
-  margin-bottom: 10%;
+  margin-bottom: 10vh;
 }
 /*--------------------------------
         Global Section end 
@@ -41,7 +41,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
-  margin-bottom: 70px;
 }
 .logo-title {
   font-family: var(--common-font);
@@ -307,7 +306,65 @@
 .sponsor-img > img {
   margin-right: 70px;
   cursor: pointer;
+  filter: grayscale(1);
 }
+.sponsor-img > img:hover {
+  filter: grayscale(0);
+}
+/* Newsletr section start  */
+.newsletr {
+  background-size: cover;
+  padding: 100px 40px;
+  text-align: center;
+  color: #ffffff;
+}
+.newsletr h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+.newsletr p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box {
+  height: 40px;
+  justify-content: center;
+  display: flex; /*its better to use inline-flex*/
+}
+.email-box i {
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,
+.btn {
+  border: none;
+  outline: none;
+}
+.tbox {
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,
+.tbox:focus {
+  width: 260px;
+  padding: 0 10px;
+  border: 1px solid #2f3542;
+}
+.btn {
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Newsletr section end  */
 /*--------------------------------
         Main Section end 
 -----------------------------------*/
