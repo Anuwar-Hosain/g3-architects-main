@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --common-font: "Work Sans", sans-serif;
+  --nav-color: #424242;
+  --main-color: #131313;
+  --para-color: #727272;
+  --btn-color: #ff900e;
+}
+
 *,
 *::after,
 *::before {
@@ -5,3 +15,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* ------------------------------
+        Global Section Start 
+---------------------------------*/
+.size {
+  width: 65vw;
+  margin: 0 auto;
+}
+.margin-b {
+  margin-bottom: 100px;
+}
+/*--------------------------------
+        Global Section end 
+-----------------------------------*/
+
+/* ------------------------------
+        Header Section Start 
+---------------------------------*/
+.header-section {
+  background: rgba(255, 144, 14, 0.1);
+}
+/* navbar section */
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  margin-bottom: 100px;
+}
+.logo-title {
+  font-family: var(--common-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--main-color);
+  cursor: pointer;
+}
+.nav > ul {
+  display: flex;
+  gap: 50px;
+}
+.nav > ul > li {
+  list-style: none;
+}
+.nav > ul > li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: var(--common-font);
+  color: var(--nav-color);
+  transition: all 0.4s;
+}
+.nav > ul > li a:hover {
+  color: var(--btn-color);
+}
+
+/*--------------------------------
+        Header Section end 
+-----------------------------------*/
+/* ------------------------------
+        Main Section Start 
+---------------------------------*/
+/*--------------------------------
+        Main Section end 
+-----------------------------------*/
+/* ------------------------------
+        Footer Section Start 
+---------------------------------*/
+/*--------------------------------
+        Footer Section end 
+-----------------------------------*/
