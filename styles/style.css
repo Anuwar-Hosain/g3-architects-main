@@ -387,3 +387,31 @@
 /*--------------------------------
         Footer Section end 
 -----------------------------------*/
+
+/* ---------------------------------
+Media query section
+-----------------------------------*/
+@media only screen and (max-width: 688px) {
+  main {
+    display: none;
+  }
+  .size {
+    width: 90vw;
+    margin: 0 auto;
+  }
+  /* logo and Nav */
+  .logo-nav {
+    flex-direction: column;
+  }
+  .nav > ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* Hero section  */
+  .hero-info-title {
+    font-size: 32px;
+  }
+  .hero-img > img {
+    width: 90vw;
+  }
+}
