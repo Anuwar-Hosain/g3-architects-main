@@ -23,7 +23,7 @@
   margin: 0 auto;
 }
 .margin-b {
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 /*--------------------------------
         Global Section end 
@@ -41,7 +41,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 50px 0;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .logo-title {
   font-family: var(--common-font);
@@ -70,13 +70,167 @@
 .nav > ul > li a:hover {
   color: var(--btn-color);
 }
-
+/* Hero section start  */
+.hero {
+  text-align: center;
+}
+.hero-info-title {
+  font-family: var(--common-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+.hero-info-para {
+  font-family: var(--common-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--para-color);
+  margin-bottom: 30px;
+}
+.hero-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.hero-img {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.hero-img > img {
+  width: 65vw;
+}
 /*--------------------------------
         Header Section end 
 -----------------------------------*/
 /* ------------------------------
         Main Section Start 
 ---------------------------------*/
+/* quick feature section */
+.quick-features {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.quick-img {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.quick-info {
+  flex: 1;
+}
+.quick-title {
+  font-family: var(--common-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.gray {
+  font-weight: 500;
+  color: #727272;
+}
+.black {
+  font-weight: 700;
+  color: #131313;
+}
+.orrenge {
+  font-weight: 700;
+  color: #ff900e;
+}
+.quick-para {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 32px;
+}
+/* Feature love and enjoy section start  */
+.feature-love {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.love-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  border-left: 5px solid #ff900e;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+.love-para {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-bottom: 30px;
+}
+.love-card {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+.card-para {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+.feature-love-img {
+  position: relative;
+}
+.love-btn {
+  background: #ff900e;
+  border-radius: 8px;
+  padding: 45px;
+  width: 342px;
+  position: absolute;
+  top: 85%;
+  left: -5%;
+  z-index: 50;
+}
+.love-btn > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+}
+.love-btn > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+}
 /*--------------------------------
         Main Section end 
 -----------------------------------*/
